@@ -159,7 +159,7 @@ process_region_data <- function(venn){
     component = "region",
     id = region_ids,
     item = region_items,
-    count = counts,
+    count = region_names,
     name = region_names
   )
 }
